@@ -69,4 +69,15 @@ class SetupCiclovias {
         }
         return lista
     }
+
+    fun filtro(): MutableList<Ciclovia> {
+        val lista: MutableList<Ciclovia> = ArrayList()
+
+        for (i in 0..19) {
+            if (init()[i].comuna == "Las Condes")
+
+                lista.add(init()[i])
+        }
+        return lista
+    }
 }

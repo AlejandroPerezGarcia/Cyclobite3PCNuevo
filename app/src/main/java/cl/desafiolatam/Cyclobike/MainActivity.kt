@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() , AdapterView.OnItemSelectedListener,
 
         val listof = listOf( "Las Condes","La Reina","Ñuñoa","Macul","Providencia")
 
-        val adapter = ArrayAdapter(this,android.R.layout.simple_spinner_item,listof)
+       val adapter = ArrayAdapter(this,android.R.layout.simple_spinner_item,listof)
         FiltroComuna.adapter = adapter
 
 
